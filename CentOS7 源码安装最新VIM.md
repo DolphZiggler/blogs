@@ -36,5 +36,5 @@
 [root@localhost vim-master]# make VIMRUNTIMEDIR=/usr/local/share/vim/vim82 && make install
 ```
 
-原文链接：[](https://www.linuxprobe.com/centos7-install-vim8.html)
+原文链接：[https://github.com/DolphZiggler/blogs.git](https://www.linuxprobe.com/centos7-install-vim8.html)
 

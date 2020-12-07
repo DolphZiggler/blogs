@@ -80,15 +80,16 @@
    ### 3.2 关闭Selinux
 
    ```shell
-   #进入vi
+   #进入vi,永久关闭
    vi /etc/selinux/config
    SELINUX: enforcing=>disabled
-   #进入bash
+   #进入bash，临时关闭
    setenforce=0
    getenforce// Permissive
+   # 查看状态
+   sestatus// SELinux status:  disabled
+```
    
-   ```
 
    
-
    ​	
